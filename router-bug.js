@@ -20,7 +20,11 @@ Router.map(function () {
    * The route's template is inferred to be "posts"
    */
   this.route('posts', {
-    path: '/posts'
+    path: '/posts',
+    before: function(){
+      this.render('helloWorld');
+      this.stop();
+    }
   });
 
   this.route('post', {
