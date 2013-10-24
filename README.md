@@ -1,0 +1,1 @@
+To reproduce, just access any 404 URL. The layout won't appear. 
